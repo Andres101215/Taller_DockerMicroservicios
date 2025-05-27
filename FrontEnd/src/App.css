@@ -1,0 +1,10 @@
+body {
+  background-image: url('./assets/fondo.jpg');
+  background-size: cover;           /* Escala la imagen para cubrir todo el fondo */
+  background-position: center;      /* Centra la imagen */
+  background-repeat: no-repeat;     /* No repite la imagen */
+  height: 100vh;                    /* Altura igual a la ventana visible */
+  margin: 0;                        /* Elimina márgenes del body */
+  padding: 0;                       /* Asegura que no haya padding */
+  background-attachment: fixed;     /* Hace que el fondo no se desplace con el scroll (opcional) */
+}

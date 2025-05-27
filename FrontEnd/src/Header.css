@@ -1,0 +1,27 @@
+/* src/components/Header.css */
+.header {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* usa 'space-between' si quieres el logo a la izquierda y el título centrado */
+  gap: 15px;
+}
+
+.header-logo {
+  height: 40px; /* o el tamaño que desees */
+  width: auto;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 24px;
+}
